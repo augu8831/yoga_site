@@ -1,0 +1,124 @@
+footer {
+  /* background-color: #e6e4cd; */
+  text-align: center;
+  padding-top: 5rem;
+  padding-bottom: 1rem;
+  margin: 0;
+  border-top: #584c46;
+  border-top: 0.5px solid;
+}
+
+footer h2 {
+  font-family: "quiche-sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #584c46;
+  font-size: 2rem;
+  letter-spacing: 0.07rem;
+}
+
+footer p {
+  font-family: "mr-eaves-xl-modern", sans-serif;
+  line-height: 2rem;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-style: normal;
+  color: #584c46;
+  font-size: 1rem;
+  letter-spacing: 0.07rem;
+}
+
+.iconfooter {
+  margin: 3rem;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.last p {
+  font-size: 0.8rem;
+  color: #7d7673e0;
+}
+
+.icon {
+  height: 65px;
+  width: 65px;
+  border: 1px solid;
+  border-color: #584c46;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.icon img {
+  height: auto;
+  width: 45%;
+  align-items: center;
+  padding-top: 1.1rem;
+}
+
+form {
+  color: #7d7673e0;
+  font-family: "mr-eaves-xl-modern", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+  margin-top: 2rem;
+}
+
+.input1 {
+  padding: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.input2 {
+  padding: 1rem;
+  padding-left: 0.2rem;
+  padding-right: 0.2rem;
+  border-radius: 0;
+  color: #584c46;
+  border-color: transparent;
+}
+
+@media (min-width: 800px) {
+  footer {
+    /* background-color: #e6e4cd; */
+    /* background-color: #b29184; */
+    text-align: center;
+    padding-top: 5rem;
+    padding-bottom: 1rem;
+    margin: 0;
+  }
+
+  footer h2 {
+    font-family: "quiche-sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #584c46;
+    font-size: 3rem;
+    letter-spacing: 0.07rem;
+  }
+
+  form {
+    color: #7d7673e0;
+    font-family: "mr-eaves-xl-modern", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    margin-top: 2rem;
+  }
+  .input1 {
+    padding: 1rem;
+    padding-left: 7rem;
+    padding-right: 7rem;
+  }
+
+  .input2 {
+    padding: 1rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    border-radius: 0;
+    color: #584c46;
+    border-color: transparent;
+  }
+}

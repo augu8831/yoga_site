@@ -1,0 +1,206 @@
+.buyitem {
+  margin-top: 2rem;
+}
+
+.poseshow {
+  margin: 2rem;
+}
+
+.grid2 {
+  margin: 2rem;
+}
+
+.yogaimg a {
+  border-bottom: 1px solid #ffffff;
+  padding-bottom: 3px;
+  text-decoration: none;
+}
+
+.section1 {
+  scroll-padding-bottom: 1rem;
+}
+
+.dl_info {
+  padding-top: 0.8rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.grid-4 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 3rem;
+  margin: 2rem;
+  /* padding: 8%; */
+  row-gap: 3rem;
+}
+
+.section2 {
+  margin: 2rem;
+}
+
+.posesection {
+  margin: 2rem;
+}
+
+.section3 {
+  margin: 2rem;
+}
+
+.music div {
+  text-align: center;
+}
+
+.music img {
+  width: 20%;
+  height: auto;
+}
+
+.music button {
+  margin-top: 3rem;
+  border-radius: 50px;
+  border: 1px solid;
+  padding: 1rem 1rem;
+  text-align: center;
+  display: inline-block;
+  border-color: #584c46;
+  font-size: 1.3rem;
+  color: #584c46;
+  background-color: transparent;
+  font-family: "mr-eaves-xl-modern", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+@media (min-width: 800px) {
+  .posetext {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .steps {
+    padding-left: 5rem;
+    padding-bottom: 5rem;
+  }
+
+  .posename {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .posename h2 {
+    text-align: center;
+  }
+  .yogaimg {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 3rem;
+  }
+  .section2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  .posesection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 2rem;
+  }
+  .pose {
+    padding-bottom: 5rem;
+    margin: 2rem;
+  }
+
+  .productshow {
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+    margin: 2rem;
+    /* padding: 6rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0; */
+  }
+
+  .poseshow {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin: 2rem;
+    /* padding: 6rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0; */
+  }
+  .yogah2 {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10rem;
+    padding-bottom: 5rem;
+    padding-top: 2rem;
+    font-family: "quiche-sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #584c46;
+    font-size: 1.5rem;
+    letter-spacing: 0.07rem;
+  }
+  .section1 {
+    /* padding-right: 5rem; */
+    padding-bottom: 5rem;
+  }
+
+  .yogatypesection {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .yogatypesection h2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .section2 {
+    display: flex;
+    /* margin: 2rem; */
+    /* padding-right: 2rem; */
+    flex-direction: column;
+  }
+
+  .section3 {
+    display: flex;
+    margin: 2rem;
+  }
+
+  .music {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+  }
+  .col {
+    margin: 2rem;
+  }
+  .grid-4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 5rem;
+    margin: 2rem;
+    padding: 8%;
+    text-align: center;
+    row-gap: 5rem;
+  }
+
+  .grid2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    margin: 5rem;
+  }
+}

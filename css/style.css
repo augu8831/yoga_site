@@ -1,0 +1,458 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f7f4ed;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.steps p {
+  color: #8e8885;
+  font-family: "mr-eaves-xl-modern", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: 1rem;
+  line-height: 23px;
+}
+
+.steps h3 {
+  font-size: 1.5rem;
+}
+
+.indeximg {
+  display: flex;
+  justify-content: center;
+}
+
+.productpageimg {
+  display: flex;
+  justify-content: center;
+}
+
+.posesection h2 {
+  border-bottom: 1px solid #584c46;
+  padding-bottom: 3px;
+  text-align: center;
+}
+.posename p {
+  text-align: center;
+}
+
+.section2 h2 {
+  font-family: "quiche-sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #584c46;
+  font-size: 2rem;
+  letter-spacing: 0.07rem;
+  /* text-align: center; */
+}
+
+.grid-4 h3 {
+  /* font-family: "quiche-sans", sans-serif; */
+  font-family: "mr-eaves-xl-modern", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #584c46;
+  font-size: 1rem;
+  letter-spacing: 0.07rem;
+  padding-bottom: 0.5rem;
+  /* padding-top: 1rem; */
+}
+
+.grid-4 p {
+  color: #8e8885;
+  font-family: "mr-eaves-xl-modern", sans-serif;
+  font-weight: 400;
+  font-size: 0.9rem;
+  font-style: normal;
+  margin-top: 0.3rem;
+  line-height: 20px;
+}
+
+.grid-4 a {
+  color: #584c46;
+  font-family: "mr-eaves-xl-modern", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  font-style: normal;
+  margin-top: 0.3rem;
+}
+
+.posesection h2 {
+  font-family: "quiche-sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #584c46;
+  font-size: 2rem;
+  letter-spacing: 0.07rem;
+  /* text-align: center; */
+}
+
+.grid2 p {
+  color: #8e8885;
+  font-family: "mr-eaves-xl-modern", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: 1rem;
+  line-height: 23px;
+}
+
+.grid2 h2 {
+  font-family: "quiche-sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #584c46;
+  font-size: 2rem;
+  letter-spacing: 0.07rem;
+  text-align: center;
+}
+
+.music h2 {
+  font-family: "quiche-sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #584c46;
+  font-size: 2rem;
+  letter-spacing: 0.07rem;
+}
+
+ol li {
+  font-family: "mr-eaves-xl-modern", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #584c46;
+  font-size: 1rem;
+  letter-spacing: 0.07rem;
+}
+
+h3 {
+  font-family: "quiche-sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #584c46;
+  font-size: 1rem;
+  letter-spacing: 0.07rem;
+}
+
+.section2 p {
+  color: #8e8885;
+  font-family: "mr-eaves-xl-modern", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: 1rem;
+  line-height: 23px;
+  /* text-align: center; */
+}
+
+.posesection p {
+  color: #8e8885;
+  font-family: "mr-eaves-xl-modern", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: 1rem;
+  line-height: 23px;
+  /* text-align: center; */
+}
+
+.section3 h3 {
+  font-family: "mr-eaves-xl-modern", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #584c46;
+  font-size: 1.3rem;
+  /* letter-spacing: 0.07rem; */
+  /* text-align: center; */
+}
+
+.section3 dt {
+  color: #584c46;
+  font-family: "mr-eaves-xl-modern", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: 1rem;
+  /* line-height: 23px; */
+  /* text-align: center; */
+}
+.section3 dd {
+  color: #706965;
+  font-family: "mr-eaves-xl-modern", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: 1rem;
+  /* line-height: 23px; */
+  /* text-align: center; */
+}
+
+.h1text {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "quiche-sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #ffffff;
+  font-size: 3rem;
+}
+
+.h1text3 {
+  position: absolute;
+  top: 55%;
+  left: 15%;
+  transform: translate(-50%, -50%);
+  font-family: "quiche-sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #ffffff;
+  font-size: 4rem;
+}
+
+.h1text2 {
+  position: absolute;
+  top: 55%;
+  left: 85%;
+  transform: translate(-50%, -50%);
+  font-family: "quiche-sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #ffffff;
+  font-size: 4rem;
+}
+
+.h1text1 {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "quiche-sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #ffffff;
+  font-size: 4rem;
+}
+
+.boxes {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+  margin: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.boxchange {
+  margin: 2rem;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+}
+
+.boxes h2 {
+  font-family: "quiche-sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #584c46;
+  font-size: 2rem;
+  letter-spacing: 0.07rem;
+  text-align: center;
+  margin-top: 1.5rem;
+}
+
+.textbox {
+  display: flex;
+  flex-direction: column;
+}
+
+.textbox p {
+  color: #584c46;
+  font-family: "mr-eaves-xl-modern", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: 1rem;
+  line-height: 23px;
+  text-align: center;
+}
+
+.textbox button {
+  margin-top: 3rem;
+  border-radius: 50px;
+  border: 1px solid;
+  padding: 1rem 1rem;
+  text-align: center;
+  display: inline-block;
+  border-color: #584c46;
+  font-size: 1.3rem;
+  color: #584c46;
+  background-color: transparent;
+  font-family: "mr-eaves-xl-modern", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.section2 button {
+  display: block;
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+  font-size: 1.2rem;
+  border: none;
+  padding: 10px 28px;
+  width: 100%;
+  font-family: "elza-narrow", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  background-color: #e7e7e7;
+  color: #584c46;
+  border-radius: 12px;
+  font-family: "mr-eaves-xl-modern", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+@media (min-width: 800px) {
+  section img {
+    height: auto;
+    width: 27rem;
+  }
+  /* .grid-4 img {
+    width: 100%;
+    height: 50%;
+  } */
+  .indeximg img {
+    width: 30%;
+    height: auto;
+  }
+
+  .productpageimg img {
+    width: 100%;
+    height: auto;
+    padding-top: 1rem;
+  }
+
+  .textbox {
+    display: flex;
+    flex-direction: column;
+    padding: 6rem;
+  }
+
+  .textbox p {
+    color: #584c46;
+    font-family: "mr-eaves-xl-modern", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 1rem;
+  }
+
+  .textbox button {
+    margin-top: 3rem;
+    padding: 1rem 1rem;
+  }
+
+  .h1text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "quiche-sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #ffffff;
+    font-size: 5rem;
+  }
+
+  .boxes {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-direction: row;
+    padding-left: 13rem;
+    padding-right: 13rem;
+    padding-top: 2rem;
+    /* padding: 5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem; */
+    /* margin: 2rem; */
+  }
+
+  .boxes h2 {
+    font-family: "quiche-sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #584c46;
+    font-size: 2rem;
+    letter-spacing: 0.07rem;
+    text-align: center;
+  }
+
+  .grid2 h2 {
+    font-family: "quiche-sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #584c46;
+    font-size: 3rem;
+    letter-spacing: 0.07rem;
+    text-align: center;
+  }
+
+  .grid-4 h3 {
+    /* font-family: "quiche-sans", sans-serif; */
+    font-family: "mr-eaves-xl-modern", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #584c46;
+    font-size: 1rem;
+    letter-spacing: 0.07rem;
+    padding-bottom: 0.5rem;
+    /* padding-top: 1rem; */
+  }
+
+  .grid-4 p {
+    color: #8e8885;
+    font-family: "mr-eaves-xl-modern", sans-serif;
+    font-weight: 400;
+    font-size: 0.9rem;
+    font-style: normal;
+    margin-top: 0.3rem;
+    line-height: 20px;
+  }
+
+  .grid-4 a {
+    color: #584c46;
+    font-family: "mr-eaves-xl-modern", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    font-style: normal;
+    margin-top: 0.3rem;
+  }
+}
+
+.productpage5img {
+  height: 10px;
+  object-fit: none;
+}
+
+.poseimg {
+  width: 100%;
+  height: 250px;
+  object-fit: scale-down;
+}
+
+.image1 {
+  width: 100%;
+  height: 250px;
+  object-fit: scale-down;
+}
+
+.image3 {
+  width: 100%;
+  height: 250px;
+  object-fit: scale-down;
+}
