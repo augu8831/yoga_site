@@ -8,9 +8,11 @@
     <link rel="stylesheet" href="css/nav.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/layout.css" />
+    <link rel="stylesheet" href="css/burgermenu.css" />
     <link rel="stylesheet" href="https://use.typekit.net/mjh5lzj.css" />
+    <link rel="icon" type="image/svg+xml" href="img/icons/favicon(1).svg" />
     <meta name="robots" content="noindex" />
-    <title>Document</title>
+    <title>u:Yoga</title>
   </head>
   <body>
     <header>
@@ -32,28 +34,92 @@
                 <a href="equipment.html">Equipment</a>
               </div>
             </div>
-            <li><a href="">CONTACT</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
           </ul>
         </div>
         <div class="secondnav">
-          <input type="text" placeholder="søg" />
+          <input type="text" placeholder="Search" />
+        </div>
+        <div id="burger-c" class="burgermenu-container">
+          <img class="burgermenu" src="img/icons/burgermenu1.svg" alt="" />
+  
+          <div class="mobil-menu">
+            <ul>
+              <li><a href="yogatyper.html">PRACTICES</a></li>
+              <li><a href="poselist.html">POSES</a></li>
+              <div class="dropdown">
+                <button class="dropbtn">
+                  SHOP
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                  <a href="meditation.html">Meditation</a>
+                  <a href="equipment.html">Equipment</a>
+                </div>
+              </div>
+              <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+          </div>
         </div>
       </nav>
     </header>
     <main class="yogatyper">
       <article class="yogaimg">
-        <img src="img/other/yoga19.png" alt="Yoga illustration" />
-        <a href="vinyasa.html" class="h1text1">VINYASA</a>
-        <img src="img/other/yoga26.jpg" alt="Yoga illustration" />
-        <a href="yin.html" class="h1text2">YIN</a>
-        <img src="img/other/yoga31.jpg" alt="Yoga illustration" />
-        <a href="hatha.html" class="h1text3">HATHA</a>
+        <section>
+        <div>
+          <img src="img/other/yoga37.jpg" alt="Yoga illustration" />
+        </div>
+          <div class="yogatext">
+            <div>
+              <h1 class="h1text1">VINYASA</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat enim ipsum vero alias, facilis natus ipsam at totam unde repellendus delectus maiores placeat aspernatur quisquam cumque ducimus, molestias, asperiores eaque. Lorem ipsum
+                dolor sit amet consectetur adipisicing elit. Fugiat enim ipsum vero alias, facilis natus ipsam at totam unde repellendus delectus maiores placeat aspernatur quisquam cumque ducimus, molestias, asperiores eaque.
+              </p>
+              <p><br /></p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora vel illo eaque quae amet eveniet quidem, veniam doloremque, non praesentium asperiores, temporibus officia quibusdam qui nisi sunt totam accusantium. Rem.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+        <!-- <a href="vinyasa.html" class="h1text1">VINYASA</a> -->
+        <section>
+        <div>
+          <img src="img/other/yoga35.jpg" alt="Yoga illustration" />
+          <div class="yogatext">
+            <div>
+              <h1 class="h1text2">HATHA</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat enim ipsum vero alias, facilis natus ipsam at totam unde repellendus delectus maiores placeat aspernatur quisquam cumque ducimus, molestias, asperiores eaque. Lorem ipsum
+                dolor sit amet consectetur adipisicing elit. Fugiat enim ipsum vero alias, facilis natus ipsam at totam unde repellendus delectus maiores placeat aspernatur quisquam cumque ducimus, molestias, asperiores eaque.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+        <!-- <a href="yin.html" class="h1text2">YIN</a> -->
+        <section>
+        <div>
+          <img src="img/other/yoga30.jpg" alt="Yoga illustration" />
+          <div class="yogatext">
+            <div>
+              <h1 class="h1text3">YIN</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat enim ipsum vero alias, facilis natus ipsam at totam unde repellendus delectus maiores placeat aspernatur quisquam cumque ducimus, molestias, asperiores eaque. Lorem ipsum
+                dolor sit amet consectetur adipisicing elit. Fugiat enim ipsum vero alias, facilis natus ipsam at totam unde repellendus delectus maiores placeat aspernatur quisquam cumque ducimus, molestias, asperiores eaque.
+              </p>
+              <p><br /></p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat enim ipsum vero alias, facilis natus ipsam at totam unde repellendus delectus maiores placeat aspernatur quisquam cumque ducimus, molestias, asperiores eaque. Lorem ipsum
+                dolor sit amet consectetur adipisicing elit. Fugiat enim ipsum vero alias, facilis natus ipsam at totam unde repellendus delectus maiores placeat aspernatur quisquam cumque ducimus, molestias, asperiores eaque.
+              </p>
+            </div>
+          </div>
+        </div>
+        </section>
       </article>
-      <!-- <section class="yogah2">
-        <h2>VINYASA</h2>
-        <h2>HATHA</h2>
-        <h2>YIN</h2>
-      </section> -->
+      <section class="yogatext"></section>
+      </section>
     </main>
     <footer>
       <div class="footer">
@@ -77,5 +143,7 @@
       </div>
     </footer>
     <script src="database.js"></script>
+    <script src="js/dropdown.js"></script>
+    <script src="js/burgermenu.js"></script>
   </body>
 </html>

@@ -9,9 +9,11 @@
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/layout.css" />
     <link rel="stylesheet" href="css/newsletter.css" />
+    <link rel="stylesheet" href="css/burgermenu.css" />
     <link rel="stylesheet" href="https://use.typekit.net/mjh5lzj.css" />
+    <link rel="icon" type="image/svg+xml" href="img/icons/favicon(1).svg" />
     <meta name="robots" content="noindex">
-    <title>Document</title>
+    <title>View Product</title>
   </head>
   <body>
     <header>
@@ -33,11 +35,32 @@
                 <a href="equipment.html">Equipment</a>
               </div>
             </div>
-            <li><a href="">CONTACT</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
           </ul>
         </div>
         <div class="secondnav">
-          <input type="text" placeholder="søg" />
+          <input type="text" placeholder="Search" />
+        </div>
+        <div id="burger-c" class="burgermenu-container">
+          <img class="burgermenu" src="img/icons/burgermenu1.svg" alt="" />
+  
+          <div class="mobil-menu">
+            <ul>
+              <li><a href="yogatyper.html">PRACTICES</a></li>
+              <li><a href="poselist.html">POSES</a></li>
+              <div class="dropdown">
+                <button class="dropbtn">
+                  SHOP
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                  <a href="meditation.html">Meditation</a>
+                  <a href="equipment.html">Equipment</a>
+                </div>
+              </div>
+              <li><a href="">CONTACT</a></li>
+            </ul>
+          </div>
         </div>
       </nav>
     </header>
@@ -55,32 +78,32 @@
             <button>ADD TO CART</button>
           </div>
           </div>
+          <div class="information">
+            <h3>Product Information</h3>
+            <div class="dl_info">
+                  <p>Brand: u:Yoga</p>
+
+                  <p>Color: Bronz</p>
+                
+                  <p>Model: Singbowl for meditation practise</p>
+
+                  <p>Inventory number: 3429</p>
+            </div>
         </section>
-      </article>
         <!-- <section class="section3">
           <div class="information">
             <h3>Product Information</h3>
             <div class="dl_info">
-              <div>
-                <dl>
-                  <dt>Brand:</dt>
-                  <dd>Puma</dd>
+                  <p>Brand: u:Yoga</p>
 
-                  <dt>Color:</dt>
-                  <dd>Black</dd>
-                </dl>
-              </div>
-              <div>
-                <dl>
-                  <dt>Model:</dt>
-                  <dd>Basket-Biz Sneaker</dd>
+                  <p>Color: Bronz</p>
+                
+                  <p>Model: Singbowl for meditation practise</p>
 
-                  <dt>Inventory number:</dt>
-                  <dd>1543</dd>
-                </dl>
-              </div>
+                  <p>Inventory number: 3429</p>
             </div>
-        </section> -->
+        </section>  -->
+      </article>
     </main>
     <footer>
       <div class="footer">
@@ -103,5 +126,7 @@
       </div>
     </footer>
     <script src="database.js"></script>
+    <script src="js/dropdown.js"></script>
+    <script src="js/burgermenu.js"></script>
   </body>
 </html>

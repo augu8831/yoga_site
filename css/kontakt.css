@@ -1,6 +1,48 @@
-main {
+/* main {
   font-family: "mr-eaves-xl-modern", sans-serif;
   color: #f8f8f8;
+} */
+
+input::placeholder {
+  font-family: "mr-eaves-xl-modern", sans-serif;
+  font-size: 1rem;
+  color: #9d9d9d;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  /* border: 3px solid #ccc; */
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+
+input[type="text"]:focus {
+  border: 1px solid #b4b4b4;
+}
+
+textarea[type="text"]:focus {
+  border: 1px solid #b4b4b4;
+}
+
+textarea[type="text"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  /* border: 3px solid #ccc; */
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+
+textarea::placeholder {
+  font-family: "mr-eaves-xl-modern", sans-serif;
+  font-size: 1rem;
+  color: #9d9d9d;
 }
 
 input[type="text"],
@@ -9,7 +51,7 @@ textarea {
   width: 100%;
   padding: 12px;
   border: 1px solid #ffffff;
-  border-radius: 10px;
+  /* border-radius: 10px; */
   box-sizing: border-box;
   margin-top: 6px;
   margin-bottom: 16px;
@@ -20,8 +62,9 @@ input[type="submit"] {
   border-color: white;
   padding: 12px 20px;
   border: none;
-  border-radius: 10px;
+  /* border-radius: 10px; */
   cursor: pointer;
+  color: #584c46;
 }
 
 input[type="submit"]:hover {
@@ -67,21 +110,25 @@ h2 {
   padding-bottom: 5rem;
 }
 
+.imgcontact {
+  display: flex;
+  justify-content: center;
+}
+
 .gridcontact {
   display: grid;
   grid-template-columns: 1fr;
 }
 
 @media (min-width: 800px) {
-  /* .imgcontact {
-    width: 450px;
+  .imgcontact {
+    width: 40%;
     height: auto;
-    padding-top: 2rem;
-  } */
+  }
 
   .gridcontact {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     column-gap: 7rem;
   }
 
@@ -100,7 +147,7 @@ h2 {
     width: 100%;
     padding: 12px;
     border: 1px solid #ffffff;
-    border-radius: 10px;
+    /* border-radius: 10px; */
     box-sizing: border-box;
     margin-top: 6px;
     margin-bottom: 16px;
@@ -111,7 +158,7 @@ h2 {
     border-color: white;
     padding: 12px 20px;
     border: none;
-    border-radius: 10px;
+    /* border-radius: 10px; */
     cursor: pointer;
   }
 
@@ -131,7 +178,7 @@ h2 {
   }
 
   p {
-    color: #8e8885;
+    color: #7b7977;
     font-family: "mr-eaves-xl-modern", sans-serif;
     font-weight: 400;
     font-style: normal;

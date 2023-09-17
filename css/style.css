@@ -8,11 +8,20 @@ body {
   background-color: #f7f4ed;
 }
 
+.smallProduct a {
+  text-decoration: none;
+}
+
 img {
   width: 100%;
   height: auto;
 }
-
+.productpageimg img {
+  width: 100%;
+  object-fit: cover;
+  height: 250px;
+  padding-top: 2rem;
+}
 .steps p {
   color: #8e8885;
   font-family: "mr-eaves-xl-modern", sans-serif;
@@ -22,8 +31,50 @@ img {
   line-height: 23px;
 }
 
+input::placeholder {
+  font-family: "mr-eaves-xl-modern", sans-serif;
+  font-size: 1rem;
+  color: #9d9d9d;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  /* border: 3px solid #ccc; */
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+
+input[type="text"]:focus {
+  border: 1px solid #b4b4b4;
+}
+
+textarea[type="text"]:focus {
+  border: 1px solid #b4b4b4;
+}
+
+textarea[type="text"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  /* border: 3px solid #ccc; */
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+
+textarea::placeholder {
+  font-family: "mr-eaves-xl-modern", sans-serif;
+  font-size: 1rem;
+  color: #9d9d9d;
+}
+
 .steps h3 {
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 .indeximg {
@@ -37,12 +88,8 @@ img {
 }
 
 .posesection h2 {
-  border-bottom: 1px solid #584c46;
+  /* border-bottom: 1px solid #584c46; */
   padding-bottom: 3px;
-  text-align: center;
-}
-.posename p {
-  text-align: center;
 }
 
 .section2 h2 {
@@ -204,40 +251,44 @@ h3 {
 }
 
 .h1text3 {
-  position: absolute;
-  top: 55%;
-  left: 15%;
-  transform: translate(-50%, -50%);
+  /* position: absolute;
+  top: 40%;
+  left: 50%; */
+  /* transform: translate(-50%, -50%);
   font-family: "quiche-sans", sans-serif;
   font-weight: 400;
   font-style: normal;
+  text-align: center;
   color: #ffffff;
-  font-size: 4rem;
+  font-size: 3rem; */
 }
 
 .h1text2 {
-  position: absolute;
-  top: 55%;
-  left: 85%;
-  transform: translate(-50%, -50%);
+  /* position: absolute;
+  top: 200%;
+  left: 50%; */
+  /* transform: translate(-50%, -50%);
   font-family: "quiche-sans", sans-serif;
   font-weight: 400;
   font-style: normal;
   color: #ffffff;
-  font-size: 4rem;
+  font-size: 3rem;
+  text-align: center; */
 }
 
 .h1text1 {
-  position: absolute;
-  top: 55%;
-  left: 50%;
+}
+/* position: absolute;
+  top: 120%;
+  left: 50%; */
+/* text-align: center;
   transform: translate(-50%, -50%);
   font-family: "quiche-sans", sans-serif;
   font-weight: 400;
   font-style: normal;
   color: #ffffff;
-  font-size: 4rem;
-}
+  font-size: 3rem;
+} */
 
 .boxes {
   padding-top: 2.5rem;
@@ -281,12 +332,16 @@ h3 {
   text-align: center;
 }
 
+.boxbtn {
+  display: flex;
+  justify-content: center;
+}
+
 .textbox button {
   margin-top: 3rem;
   border-radius: 50px;
   border: 1px solid;
-  padding: 1rem 1rem;
-  text-align: center;
+  padding: 1rem 2rem;
   display: inline-block;
   border-color: #584c46;
   font-size: 1.3rem;
@@ -332,8 +387,9 @@ h3 {
 
   .productpageimg img {
     width: 100%;
-    height: auto;
-    padding-top: 1rem;
+    object-fit: cover;
+    height: 700px;
+    padding-top: 2rem;
   }
 
   .textbox {
@@ -352,7 +408,7 @@ h3 {
 
   .textbox button {
     margin-top: 3rem;
-    padding: 1rem 1rem;
+    padding: 1rem 3rem;
   }
 
   .h1text {

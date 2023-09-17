@@ -2,8 +2,65 @@
   margin-top: 2rem;
 }
 
+.music {
+  margin-left: 2rem;
+  margin-right: 2rem;
+  padding-top: 2rem;
+  border-top: 1px solid #584c46;
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
 .poseshow {
   margin: 2rem;
+}
+
+.yogatext {
+  /* display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 3rem;
+  margin: 2rem;
+  gap: 5rem; */
+  color: #8e8885;
+  font-family: "mr-eaves-xl-modern", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: 1rem;
+  line-height: 23px;
+}
+
+.yogatext h1 {
+  padding-top: 3rem;
+  margin: 2rem;
+  margin-top: 1rem;
+  font-family: "quiche-sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #584c46;
+  font-size: 3rem;
+  text-align: center;
+}
+.yogatext {
+  display: flex;
+  flex-direction: column;
+  /* padding-top: 3rem; */
+  margin: 2rem;
+  gap: 5rem;
+  color: #8e8885;
+  font-family: "mr-eaves-xl-modern", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 23px;
+}
+
+.smallProduct {
+  /* background-color: rgba(251, 251, 251, 0.579);
+  padding: 2rem; */
+  padding-bottom: 1rem;
+  border-bottom: 1px solid;
+  color: #584c46;
 }
 
 .grid2 {
@@ -21,10 +78,13 @@
 }
 
 .dl_info {
-  padding-top: 0.8rem;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  flex-direction: column;
+  line-height: 1.5rem;
+  color: #8e8885;
+  font-family: "mr-eaves-xl-modern", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .grid-4 {
@@ -41,10 +101,10 @@
 }
 
 .posesection {
-  margin: 2rem;
+  margin: 1rem;
 }
 
-.section3 {
+.section1 {
   margin: 2rem;
 }
 
@@ -53,7 +113,8 @@
 }
 
 .music img {
-  width: 20%;
+  padding-bottom: 3rem;
+  width: 50%;
   height: auto;
 }
 
@@ -65,7 +126,7 @@
   text-align: center;
   display: inline-block;
   border-color: #584c46;
-  font-size: 1.3rem;
+  font-size: 1rem;
   color: #584c46;
   background-color: transparent;
   font-family: "mr-eaves-xl-modern", sans-serif;
@@ -80,8 +141,12 @@
   }
 
   .steps {
-    padding-left: 5rem;
     padding-bottom: 5rem;
+  }
+
+  .music img {
+    width: 20%;
+    height: auto;
   }
 
   .posename {
@@ -90,20 +155,54 @@
     justify-content: center;
   }
 
-  .posename h2 {
-    text-align: center;
+  .music {
+    margin-left: 5rem;
+    margin-right: 5rem;
+    padding-top: 5rem;
+    border-top: 1px solid #584c46;
   }
+
   .yogaimg {
     display: flex;
     flex-direction: row;
     justify-content: center;
+  }
+
+  .yogaimg img {
+    width: 100%;
+    object-fit: cover;
+    height: 700px;
+    padding-top: 2rem;
+  }
+  .yogatext h1 {
     padding-top: 3rem;
+    margin: 2rem;
+    margin-top: 1rem;
+    font-family: "quiche-sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #584c46;
+    font-size: 3rem;
+    text-align: center;
+  }
+  .yogatext {
+    display: flex;
+    flex-direction: column;
+    /* padding-top: 3rem; */
+    margin: 2rem;
+    gap: 5rem;
+    color: #8e8885;
+    font-family: "mr-eaves-xl-modern", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 23px;
   }
   .section2 {
+    padding-top: 8rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 2rem;
+    padding-bottom: 5rem;
   }
 
   .posesection {
@@ -118,10 +217,10 @@
   }
 
   .productshow {
-    display: flex;
-    justify-content: space-around;
-    gap: 2rem;
-    margin: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 3rem;
+    /* margin: 2rem; */
     /* padding: 6rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -152,7 +251,11 @@
     letter-spacing: 0.07rem;
   }
   .section1 {
-    /* padding-right: 5rem; */
+    display: flex;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     padding-bottom: 5rem;
   }
 
@@ -167,17 +270,14 @@
     justify-content: center;
   }
 
-  .section2 {
+  /* .section3 {
     display: flex;
-    /* margin: 2rem; */
-    /* padding-right: 2rem; */
+    justify-content: center;
+    display: flex;
     flex-direction: column;
-  }
-
-  .section3 {
-    display: flex;
-    margin: 2rem;
-  }
+    justify-content: center;
+    gap: 2rem;
+  } */
 
   .music {
     display: flex;
@@ -189,11 +289,11 @@
   }
   .grid-4 {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     column-gap: 5rem;
     margin: 2rem;
     padding: 8%;
-    text-align: center;
+    /* text-align: center; */
     row-gap: 5rem;
   }
 
@@ -202,5 +302,13 @@
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
     margin: 5rem;
+  }
+
+  .smallProduct {
+    /* background-color: rgba(251, 251, 251, 0.579);
+    padding: 2rem; */
+    padding-bottom: 1rem;
+    border-bottom: 1px solid;
+    color: #584c46;
   }
 }

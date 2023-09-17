@@ -9,8 +9,10 @@
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/layout.css" />
     <link rel="stylesheet" href="css/newsletter.css" />
+    <link rel="stylesheet" href="css/burgermenu.css" />
     <link rel="stylesheet" href="https://use.typekit.net/mjh5lzj.css" />
-    <meta name="robots" content="noindex">
+    <link rel="icon" type="image/svg+xml" href="img/icons/favicon(1).svg" />
+    <meta name="robots" content="noindex" />
     <title>Pose</title>
   </head>
   <body>
@@ -33,61 +35,85 @@
                 <a href="equipment.html">Equipment</a>
               </div>
             </div>
-            <li><a href="">CONTACT</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
           </ul>
         </div>
         <div class="secondnav">
-          <input type="text" placeholder="søg" />
+          <input type="text" placeholder="Search" />
+        </div>
+        <div id="burger-c" class="burgermenu-container">
+          <img class="burgermenu" src="img/icons/burgermenu1.svg" alt="" />
+
+          <div class="mobil-menu">
+            <ul>
+              <li><a href="yogatyper.html">PRACTICES</a></li>
+              <li><a href="poselist.html">POSES</a></li>
+              <div class="dropdown">
+                <button class="dropbtn">
+                  SHOP
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                  <a href="meditation.html">Meditation</a>
+                  <a href="equipment.html">Equipment</a>
+                </div>
+              </div>
+              <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+          </div>
         </div>
       </nav>
     </header>
     <main>
-        <article class="poseshow">
+      <article class="poseshow">
         <div class="pose">
-            <img src="img/poses/pose_1.png" alt="produkt" />
+          <img src="img/poses/pose_1.png" alt="produkt" />
         </div>
-          <div class="posesection">
-            <div class="posetext">
-              <div class="posename">
+        <div class="posesection">
+          <div class="posetext">
+            <div class="posename">
               <h2>Pose Name</h2>
-              <p>Meditation | Sounds | u:Yoga</p>
-              <p><br></p>
-              </div>
-              <!-- <p class="categoryname"><span class="brand">Footwear</span> | Unisex | Puma</p> -->
-              <!-- <p>Meditation | Sounds | u:Yoga</p> -->
-              <div>
-              <h3>Benefits:</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum debitis ea sunt natus eligendi vel repellat aspernatur sint quas! Repellendus vitae hic quo quod? Pariatur quod ducimus officia voluptatibus error.</p>
-              <p><br></p>
+              <p>Other Name | Good for | Type</p>
+              <p><br /></p>
             </div>
+            <!-- <p class="categoryname"><span class="brand">Footwear</span> | Unisex | Puma</p> -->
+            <!-- <p>Meditation | Sounds | u:Yoga</p> -->
+            <div>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum debitis ea sunt natus eligendi vel repellat aspernatur sint quas! Repellendus vitae hic quo quod? Pariatur quod ducimus officia voluptatibus error.</p>
+              <p><br /></p>
+              <section class="steps">
+                <h3>Step by step</h3>
+                <p>
+                  1. Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis sapiente repudiandae officia veritatis deleniti esse in hic exercitationem totam sunt, repellat, non quam quia quaerat officiis deserunt facilis architecto delectus.
+                </p>
+                <p>2. Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur nisi eveniet magni error numquam in.</p>
+                <p>3. Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima repellat obcaecati.</p>
+                <p><br /></p>
+              </section>
             </div>
           </div>
-        </article>
-        <section class="steps">
-          <h3>STEP BY STEP</h3>
-          <p>1. Do this</p>
-          <p>2. do this .. </p>
-          <p>3. do this..</p>
-          <p><br></p>
-        </section>
-        <section class="music">
-            <div class="col">
-                <h2>Music</h2>
-                <p></p>
-                <button>Discover more</button>
-            </div>
-            <img class="col" src="img/music/music_1.png" alt="playliste" />
-          </section>
-          <section>
-            <div class="newsletter">
-              <h2>NEWSLETTER</h2>
-              <form action="/action_page.php">
-                <label for="email">Email</label>
-                <input class="input1" type="email" id="email" name="email" />
-                <input class="input2" type="submit" />
-              </form>
-            </div>
-          </section>
+        </div>
+      </article>
+      <section class="music">
+        <div class="col">
+          <h2>Music</h2>
+          <p></p>
+          <button>Discover more</button>
+        </div>
+        <img class="col" src="img/music/music_1.png" alt="playliste" />
+      </section>
+      <section>
+        <div class="newsletter">
+          <h2>NEWSLETTER</h2>
+          <p>Stay updated on events and practices.</p>
+          <p>Sign up for our newsletter to receive updates and news.</p>
+          <form action="/action_page.php">
+            <!-- <label for="email">Email</label> -->
+            <input class="input1" type="email" id="email" name="email" placeholder="E-mail" />
+            <input class="input2" type="submit" value="Submit" />
+          </form>
+        </div>
+      </section>
     </main>
     <footer>
       <div class="footer">
@@ -97,18 +123,21 @@
       </div>
       <div class="iconfooter">
         <div class="icon">
-          <img src="img/icons/instagram(1).png" alt=""/>
+          <img src="img/icons/instagram(1).png" alt="" />
         </div>
         <div class="icon">
-          <img src="img/icons/youtube.png" alt=""/>
+          <img src="img/icons/youtube.png" alt="" />
         </div>
         <div class="icon">
-          <img src="img/icons/mail.png" alt=""/></div>
+          <img src="img/icons/mail.png" alt="" />
+        </div>
       </div>
       <div class="last">
         <p>U:YOGA 2023</p>
       </div>
     </footer>
     <script src="database.js"></script>
+    <script src="js/dropdown.js"></script>
+    <script src="js/burgermenu.js"></script>
   </body>
 </html>

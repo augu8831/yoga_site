@@ -9,9 +9,11 @@
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/layout.css" />
     <link rel="stylesheet" href="css/newsletter.css" />
+    <link rel="stylesheet" href="css/burgermenu.css" />
     <link rel="stylesheet" href="https://use.typekit.net/mjh5lzj.css" />
+    <link rel="icon" type="image/svg+xml" href="img/icons/favicon(1).svg" />
     <meta name="robots" content="noindex" />
-    <title>Document</title>
+    <title>Poses</title>
   </head>
   <body>
     <header>
@@ -33,38 +35,63 @@
                 <a href="equipment.html">Equipment</a>
               </div>
             </div>
-            <li><a href="">CONTACT</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
           </ul>
         </div>
         <div class="secondnav">
-          <input type="text" placeholder="søg" />
+          <input type="text" placeholder="Search" />
+        </div>
+        <div id="burger-c" class="burgermenu-container">
+          <img class="burgermenu" src="img/icons/burgermenu1.svg" alt="" />
+
+          <div class="mobil-menu">
+            <ul>
+              <li><a href="yogatyper.html">PRACTICES</a></li>
+              <li><a href="poselist.html">POSES</a></li>
+              <div class="dropdown">
+                <button class="dropbtn">
+                  SHOP
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                  <a href="meditation.html">Meditation</a>
+                  <a href="equipment.html">Equipment</a>
+                </div>
+              </div>
+              <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+          </div>
         </div>
       </nav>
     </header>
     <main>
+      <!-- <article class="indeximg">
+        <img src="img/illustrations/yoga_illustration.svg" alt="Yoga illustration" />
+      </article> -->
       <article class="productpageimg">
         <img src="img/other/yoga22.png" alt="Yoga illustration" />
-        <div class="h1text">How to pratices</div>
+        <div class="h1text">Explore poses</div>
       </article>
       <div class="grid-4">
         <template id="smallProductTemplate">
           <article class="smallProduct">
             <img class="poseimg" src="img/products/meditation/sounds/sounds_1.png" alt="Produkt" width="10px" />
             <h3 class="productName">produkt navn</h3>
-            <p><span class="goodfor">X</span></p>
-
             <p><span class="othername"> xxx</span></p>
-            <a class="read-more" href="pose.html">See More</a>
+            <p><span class="goodfor">X</span></p>
+            <a class="read-more" href="pose.html">See more</a>
           </article>
         </template>
       </div>
       <section>
         <div class="newsletter">
           <h2>NEWSLETTER</h2>
+          <p>Stay updated on events and practices.</p>
+          <p>Sign up for our newsletter to receive updates and news.</p>
           <form action="/action_page.php">
-            <label for="email">Email</label>
-            <input class="input1" type="email" id="email" name="email" />
-            <input class="input2" type="submit" />
+            <!-- <label for="email">Email</label> -->
+            <input class="input1" type="email" id="email" name="email" placeholder="E-mail" />
+            <input class="input2" type="submit" value="Submit" />
           </form>
         </div>
       </section>
@@ -91,5 +118,7 @@
       </div>
     </footer>
     <script src="js/poselist.js"></script>
+    <script src="js/dropdown.js"></script>
+    <script src="js/burgermenu.js"></script>
   </body>
 </html>
